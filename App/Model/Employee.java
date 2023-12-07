@@ -1,5 +1,6 @@
 package com.SpringBootHibernateMySQLCRUDRESTAPI.App.Model;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -12,6 +13,7 @@ import lombok.*;
 )
 
 @NoArgsConstructor
+@Schema(description = "All details about the employee.")
 @AllArgsConstructor(staticName = "build")
 public class Employee {
     @Id
