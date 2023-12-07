@@ -8,6 +8,12 @@
 The application is built on top of MySQL as the database, allowing seamless management of employee data.</p>
 
 ---
+## Swagger OpenAPI Doc
+
+<h6>Explore Swagger OpenAPI EMS Doc Spec.</h6>
+ [**Swagger OpenAPI Doc**](/Swagger-doc.md) 
+
+---
 ## Features
 
 - **Add Employee:** Endpoint to add a new employee with details such as first name, last name, email, age, gender, employment type, salary, and mobile number.
