@@ -53,9 +53,6 @@ The application is built on top of MySQL as the database, allowing seamless mana
     gender ENUM('MALE', 'FEMALE', 'OTHERS') NOT NULL,
     emp_type ENUM('FULL_TIME', 'PART_TIME', 'WORK_FROM_HOME') NOT NULL,
     salary DECIMAL(10, 2) NOT NULL,
-    mobile_number VARCHAR(15) NOT NULL
-);
-
-
+    mobile_number VARCHAR(15) NOT NULL );
   ```
 
