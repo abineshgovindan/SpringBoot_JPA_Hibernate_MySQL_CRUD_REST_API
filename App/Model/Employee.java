@@ -15,6 +15,7 @@ import lombok.*;
 @NoArgsConstructor
 @Schema(description = "All details about the employee.")
 @AllArgsConstructor(staticName = "build")
+@Builder
 public class Employee {
     @Id
     @GeneratedValue(

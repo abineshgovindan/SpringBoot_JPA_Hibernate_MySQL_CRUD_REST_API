@@ -64,4 +64,10 @@ public class EmployeeServiceImpl implements EmployeeService {
                 new ResourceNotFoundExpection("Employee ID is not found","ID", id));
         employeeRepository.deleteById(id);
     }
+
+    @Override
+    public void testMethode() {
+
+        System.out.println(" -------------------------> "+ employeeRepository.findByemail("emma.johnson@example.com"));
+    }
 }
