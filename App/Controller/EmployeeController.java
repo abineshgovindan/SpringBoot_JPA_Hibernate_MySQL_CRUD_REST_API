@@ -22,6 +22,10 @@ import java.util.List;
 public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
+
+
+
+
     @PostMapping
     @ApiResponse(
             responseCode = "201",
@@ -52,6 +56,8 @@ public class EmployeeController {
             description = "HTTP Status OK"
     )
     public ResponseEntity<Employee> getEmployeeByID(@PathVariable long id){
+        employeeService.testMethode();
+
         return new ResponseEntity<Employee>( employeeService.getEmployeeByID(id), HttpStatus.OK);
     }
 

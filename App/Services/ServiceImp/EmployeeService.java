@@ -11,4 +11,5 @@ public interface EmployeeService {
     public Employee getEmployeeByID(long id);
     public Employee updateEmployee(long id, EmployeeRequest employee);
     public  void deleteEmployeeByID(long id);
+    public void testMethode();
 }
